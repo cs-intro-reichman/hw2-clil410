@@ -29,7 +29,7 @@ public class Collatz {
 				}
 				System.out.println();
 			}
-			System.out.println("Every one of the first " + seedN + " halistone sequences reached 1.");
+			System.out.println("Every one of the first " + seedN + " hailstone sequences reached 1.");
 		}
 		if (mode.charAt(0) == 'c') {
 			boolean isOne = false;
@@ -51,7 +51,7 @@ public class Collatz {
 				}
 			}
 			if (isOne) {
-				System.out.println("Every one of the first " + seedN + " halistone sequences reached 1.");
+				System.out.println("Every one of the first " + seedN + " hailstone sequences reached 1.");
 			}
 		}
 	}

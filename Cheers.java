@@ -5,7 +5,10 @@ public class Cheers {
             int N = Integer.parseInt(args [1]);
             String a = "";
             for (int i=0; i <= word.length() - 1; i++) {
-                boolean isFound = "AEFHILMNORSX".indexOf(Character.toUpperCase(word.charAt(i)) != -1;
+                boolean isFound = "AEFHILMNORSX".indexOf(word.charAt(i)) != -1;
+                if (isFound == false) {
+                        isFound = "aefhilmnorsx".indexOf(word.charAt(i)) != -1;
+                }
                 if (isFound == true) {
                         a = "an";
                 } else {
@@ -18,5 +21,7 @@ public class Cheers {
                 System.out.println(word + "!!!");
             }
         }
+
+
 }
 
