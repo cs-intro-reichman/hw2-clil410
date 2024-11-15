@@ -5,7 +5,7 @@ public class Cheers {
             int N = Integer.parseInt(args [1]);
             String a = "";
             for (int i=0; i <= word.length() - 1; i++) {
-                boolean isFound = "AEFHILMNORSX".indexOf(word.charAt(i)) != -1;
+                boolean isFound = "AEFHILMNORSX".indexOf(Character.toUpperCase(word.charAt(i)) != -1;
                 if (isFound == true) {
                         a = "an";
                 } else {
@@ -15,18 +15,8 @@ public class Cheers {
             } 
             System.out.println("What does that spell?");
             for (int i=0; i < N; i++) {
-                System.out.println(word + "! ! !");
+                System.out.println(word + "!!!");
             }
         }
-
-
 }
-
-//int index2 = text.indexOf('z');  // Returns -1 (not found)
-
-//String a = "a";
-  //              int index = word.indexOf("AEFHILMNORSX");
-    //            if (index != -1) {
-      //                  a = "an";
-        //        }
 
