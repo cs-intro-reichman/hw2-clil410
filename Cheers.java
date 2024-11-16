@@ -3,16 +3,15 @@ public class Cheers {
         public static void main(String[] args) {
 	    String word = args [0];
             int N = Integer.parseInt(args [1]);
-            String a = "";
             for (int i=0; i <= word.length() - 1; i++) {
                 boolean isFound = "AEFHILMNORSX".indexOf(word.charAt(i)) != -1;
                 if (isFound == false) {
                         isFound = "aefhilmnorsx".indexOf(word.charAt(i)) != -1;
                 }
                 if (isFound == true) {
-                        a = "an";
+                        System.out.println("Give me an: " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
                 } else {
-                        a = "a";
+                        System.out.println("Give me a:  " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
                 }
                 System.out.println("Give me " + a + " " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
             } 
