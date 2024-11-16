@@ -13,7 +13,6 @@ public class Cheers {
                 } else {
                         System.out.println("Give me a:  " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
                 }
-                System.out.println("Give me " + a + " " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
             } 
             System.out.println("What does that spell?");
             for (int i=0; i < N; i++) {
