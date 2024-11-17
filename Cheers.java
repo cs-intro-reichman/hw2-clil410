@@ -9,9 +9,9 @@ public class Cheers {
                         isFound = "aefhilmnorsx".indexOf(word.charAt(i)) != -1;
                 }
                 if (isFound == true) {
-                        System.out.println("Give me an: " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
+                        System.out.println("Give me an " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
                 } else {
-                        System.out.println("Give me a:  " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
+                        System.out.println("Give me a  " + Character.toUpperCase(word.charAt(i)) + ": " +Character.toUpperCase(word.charAt(i)) + "!" );
                 }
             } 
             System.out.println("What does that spell?");
